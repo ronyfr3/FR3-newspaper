@@ -1,0 +1,72 @@
+.header{
+    background-color: rgb(228, 214, 27);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+}
+.header_content{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+}
+.man_logo{
+    position: absolute;
+    left: 100px;
+    background-color: rgb(71, 69, 69);
+    border-radius: 20%;
+    font-size: 18px;
+    padding: 0 3px 0 3px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px 0 5px;
+    text-transform: uppercase;
+    border-right: 1px solid gray;
+    pointer-events: none;
+}
+.logo p{
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    margin: 2px;
+    padding: 0 4px 0 4px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+.nav-links{
+    margin-right: 30px;
+}
+.nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase
+}
+
+.nav-links ul li a{
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px;
+    border-right: 1px solid gray;
+    cursor:pointer;
+    opacity: 0.7;
+}
+.nav-links ul li a:hover{
+    border-bottom: 3px solid green;
+    opacity: 1;
+}

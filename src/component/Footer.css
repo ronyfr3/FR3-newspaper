@@ -1,0 +1,40 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(43, 42, 42);
+    color: white;
+    pointer-events: none;
+    font-family: 'Yusei Magic', sans-serif;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.footer-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dev{
+    background-color: rgb(250, 249, 249);
+    color: rgb(36, 21, 36);
+    font-weight: 800;
+    margin-left: 8px;
+    margin-right: 5px;
+    padding: 0 4px 0 4px;
+    border-radius: 3px;
+}
+.footer-p p{
+    font-size: 15px;
+}
+.copyright p{
+    bottom: 0;
+    border-top: 1px dotted rgb(165, 164, 164);
+    border-bottom: 1px dotted rgb(163, 163, 163);
+    font-size: 14px;
+    padding: 0 0 2px 0;
+}

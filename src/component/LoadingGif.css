@@ -1,0 +1,16 @@
+.gif{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+    text-align: center;
+}
+.gif img{
+    width: 200px;
+    height: 100%;
+}
+.textwhile{
+    color: gray;
+    font-family: cursive;
+}
